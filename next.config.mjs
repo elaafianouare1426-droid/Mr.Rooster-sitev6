@@ -9,3 +9,15 @@ const nextConfig = {
 }
 
 export default nextConfig
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
+  images: {
+    unoptimized: true
+  },
+  basePath: "/Mr.Rooster-sitev6",
+  assetPrefix: "/Mr.Rooster-sitev6/"
+};
+
+export default nextConfig;
