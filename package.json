@@ -71,3 +71,11 @@
     "typescript": "5.7.3"
   }
 }
+
+
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next export",
+  "deploy": "gh-pages -d out"
+}
